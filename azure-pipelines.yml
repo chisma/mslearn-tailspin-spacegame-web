@@ -1,5 +1,8 @@
 trigger:
-  - "*"
+  branches:
+    include: "*"
+  paths:
+    exclude: "*.md, **/*.txt"
 
 pool:
   vmImage: "ubuntu-20.04"

@@ -1,6 +1,7 @@
 trigger:
   branches:
-    include: "*"
+    include:
+      - "*"
   paths:
     exclude:
       - "*.md, **/*.txt"
